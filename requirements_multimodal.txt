@@ -1,0 +1,48 @@
+# Core Dependencies
+numpy>=1.24.0
+opencv-python>=4.9.0.80
+Pillow>=9.0.0
+
+# Audio Processing
+pyaudio>=0.2.13
+noisereduce>=3.0.0
+webrtcvad>=2.0.10
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# Speech-to-Text
+faster-whisper>=0.10.0
+# Note: faster-whisper uses ctranslate2 which is M3 compatible
+
+# Text Analysis
+transformers>=4.30.0
+torch>=2.0.0
+sentencepiece>=0.1.99
+# RoBERTa for sentiment analysis
+
+# Audio Emotion (OpenSMILE alternative: using librosa + pre-trained models)
+scikit-learn>=1.3.0
+joblib>=1.3.0
+# We'll use librosa features + sklearn classifier
+
+# Video Processing - MediaPipe (M3 optimized)
+mediapipe>=0.10.9
+
+# Object Detection - YOLOv8
+ultralytics>=8.0.0
+
+# LLM Integration - Ollama
+ollama>=0.1.0
+requests>=2.28.0
+
+# Utilities
+pandas>=1.5.0
+tqdm>=4.64.0
+python-dateutil>=2.8.0
+
+# Optional: Audio feature extraction
+opensmile>=2.5.0
+praat-parselmouth>=0.4.3
+
+# Development
+pytest>=7.4.0
