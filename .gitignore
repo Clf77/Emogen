@@ -146,3 +146,15 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# ML Models (large files)
+models/
+*.pt
+*.onnx
+*.pb
+*.h5
+*.tflite
+yolov8*.pt
+
+# Credentials (should not be committed)
+.git-credentials
